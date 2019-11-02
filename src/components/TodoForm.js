@@ -9,17 +9,29 @@ class TodoForm extends Component{
       description : '',
       priority : 'low'
     };
+    // this.handleInput = this.handleInput.bind(this)
+    // this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   handleInput = (e) => {
-    console.log(e.target.value, e.target.name);
+    const { value, name } = e.target;
+    this.setState({
+      [name]: value
+    })
+    console.log(this.state);
+  }
+
+  handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(this.state);
+    console.log('sending the date...');
   }
 
 
   render(){
     return(
       <div className='card'>
-        <form className='card-body'>
+        <form className='card-body' onSubmit={this.handleSubmit}>
           <div className='form-group'>
             <input 
               type='text'
