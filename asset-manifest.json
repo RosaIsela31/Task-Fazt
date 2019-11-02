@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/RosaIsela31/Task-Fazt/static/css/main.8e95f36f.chunk.css",
+    "main.js": "/RosaIsela31/Task-Fazt/static/js/main.4c3d7bc8.chunk.js",
+    "main.js.map": "/RosaIsela31/Task-Fazt/static/js/main.4c3d7bc8.chunk.js.map",
+    "runtime-main.js": "/RosaIsela31/Task-Fazt/static/js/runtime-main.3b506c45.js",
+    "runtime-main.js.map": "/RosaIsela31/Task-Fazt/static/js/runtime-main.3b506c45.js.map",
+    "static/js/2.4803b0b2.chunk.js": "/RosaIsela31/Task-Fazt/static/js/2.4803b0b2.chunk.js",
+    "static/js/2.4803b0b2.chunk.js.map": "/RosaIsela31/Task-Fazt/static/js/2.4803b0b2.chunk.js.map",
+    "index.html": "/RosaIsela31/Task-Fazt/index.html",
+    "precache-manifest.7a74f39a6bdae55ad153def17af2acd4.js": "/RosaIsela31/Task-Fazt/precache-manifest.7a74f39a6bdae55ad153def17af2acd4.js",
+    "service-worker.js": "/RosaIsela31/Task-Fazt/service-worker.js",
+    "static/css/main.8e95f36f.chunk.css.map": "/RosaIsela31/Task-Fazt/static/css/main.8e95f36f.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b506c45.js",
+    "static/js/2.4803b0b2.chunk.js",
+    "static/css/main.8e95f36f.chunk.css",
+    "static/js/main.4c3d7bc8.chunk.js"
+  ]
+}
