@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import TodoForm from './components/TodoForm';
 import { todos } from './todos.json';
 console.log(todos);
+
 
 
 
@@ -22,9 +24,13 @@ class App extends Component {
           <div className='card mt-4'>
             <div className='card-header'>
               <h3>{todo.title}</h3>
+              <span className='badge badge-pill bange-danger ml-2'>
+                { todo.priority }
+              </span>
             </div>
             <div className='card-body'>
               <p>{todo.description}</p>
+              <p>{todo.responsible}</p>
             </div>
           </div>
         </div>
@@ -38,10 +44,14 @@ class App extends Component {
             <nav className='navbar navbar-dark bg-dark'>
                 <a href='hi' className='text-white'>
                   Tasks
+                  <span className='badge badge-pill badge-light ml-2'>
+                  { this.state.todos.length }
+                  </span>
                 </a>
             </nav>
         </header>
           <div className='container'>
+          <TodoForm />
             <div className='row mt-4'>
               { todos }
             </div>
