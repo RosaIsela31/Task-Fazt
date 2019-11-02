@@ -2,7 +2,7 @@
   "name": "faztcourse",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/RosaIsela31/Tasks-Fazt",
+  "homepage": "https://github.com/RosaIsela31/Task-Fazt",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",
