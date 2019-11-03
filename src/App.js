@@ -23,11 +23,13 @@ class App extends Component {
   }
 
   removeTodo = (index) =>{
+   if(window.confirm('are you sure you want to delete it?')){
     this.setState({
       todos: this.state.todos.filter((e, i) => { 
         return i !== index
       })
     })
+   }
     
   }
 
